@@ -1,0 +1,16 @@
+################################## Preliminary Cut Values ###################################################################
+########################### variableName                        value1          value2          value3          value4          level
+### Preliminary cut values: towerETcut            0.3          -                    -               -               -1
+### Preliminary cut values: subDetTowerETcut      0.3          -                    -               -               -1
+### Preliminary cut values: applyhfpfcleaning     0		   -			-		-		-1
+### Preliminary cut values: HFEnergyCut	      3		   -			-		-		-1
+### Preliminary cut values: printout	      0		   -			-		-		-1
+### Preliminary cut values: printoutCleaned       0            -                    -               -               -1
+################################## Cuts #####################################################################################
+#id             variableName           min1           max1           min2           max2          level              N          Npass         EffRel      errEffRel         EffAbs      errEffAbs
+  0                    nocut              -              -              -              -              -          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000
+  1                pass_BPTX         0.0000         1.0000              -              -              0          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000
+  2    pass_BSC_BeamHaloVeto         0.0000         1.0000              -              -              0          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000
+  3              pass_BSC_MB         0.0000         1.0000              -              -              0          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000
+  4          pass_GoodVertex         0.0000         1.0000              -              -              0          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000
+  5pass_HBHENoiseFilterResult         0.0000         1.0000              -              -              0          31495          31495  1.00000000000  0.00000000000  1.00000000000  0.00000000000

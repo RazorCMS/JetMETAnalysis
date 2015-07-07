@@ -1,0 +1,36 @@
+##########################################
+# These are object acceptance cuts       #
+# For every object to be , the value     #
+# needs to lie within the two boundaries #
+# specified here.                        #
+##########################################
+#flag to use corrected jets (set to 1) or not (set to 0)
+useCorrJets             1
+#for inclusive calojets
+CaloJetPt           25.00
+CaloJetEta           2.60
+#for calo dijets
+CaloDiJetPt         25.00
+CaloDiJetEta         3.00
+#for inclusive PFjets
+PFJetPt            25.00
+PFJetEta            3.00
+#for PFdijets
+PFDiJetPt          25.00
+PFDiJetEta          3.00
+#for inclusive JPTjets
+JPTJetPt            25.00
+JPTJetEta            2.60
+#for JPT dijets
+JPTDiJetPt          25.00
+JPTDiJetEta          3.00
+#basic dijet collection
+DijetDeltaPhi         2.10
+##########################
+#event cleanup: noise MET/ETSUM or Monster
+MetbySumEt            0.50
+FracHighPurityTracks  0.25
+##########################
+#primary vertex requirements
+Pvtxndof              4.00      
+Pvtxz                15.00

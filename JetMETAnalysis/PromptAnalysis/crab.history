@@ -1,0 +1,6 @@
+110615_104916: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -create -cfg pickevents_crab.config
+110615_105233: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -submit -c crab_0_110615_104916/
+110615_111629: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -getoutput -c crab_0_110615_104916/
+110615_111704: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -getoutput -c crab_0_110615_104916/
+110615_111822: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -status -c crab_0_110615_104916/
+110615_111831: /uscmst1/prod/grid/CRAB_2_7_8_patch1/python/crab.py -getoutput -c crab_0_110615_104916/
